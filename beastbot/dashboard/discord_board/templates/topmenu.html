@@ -1,0 +1,80 @@
+<style>
+    header{
+        background-color: rebeccapurple;
+    }
+    .bd-navbar .navbar-nav .nav-link.active {
+        font-weight: 500;
+    }
+    .bd-navbar .navbar-nav .nav-link.active, .bd-navbar .navbar-nav .nav-link:hover {
+        color: #fff;
+        background-color: transparent;
+    }
+    .old-bv {
+        font-size: 14px;
+        color: white;
+        background-color: #322348;
+    }
+    .old-bv:hover {
+        font-size: 14px;
+        color: lightgrey;
+        background-color: #261f2f;
+    }
+    .text-white {
+        color: #fff!important;
+    }
+    .text-center {
+        text-align: center!important;
+    }
+    #buttonPrimary {
+        color: white;
+        font-weight: 500;
+        background-color: black;
+        display: inline-block
+        text-decoration: none;
+        border-color: black;
+    }
+    #buttonPrimary:focus, #buttonPrimary:hover, #buttonPrimary:active{
+        color: white;
+        background-color: #261f2f;
+        text-decoration: none;
+        display: inline-block
+        border-color: black;
+    }
+    #buttonReset {
+        font-weight: 500;
+        color: black;
+        background-color: white;
+        display: inline-block
+        text-decoration: none;
+        border-color: white;
+    }
+    #buttonReset:focus, #buttonReset:hover, #buttonReset:active{
+        color: black;
+        background-color: lightgrey;
+        text-decoration: none;
+        display: inline-block
+        border-color: lightgrey;
+    }
+</style>
+{% if category.title != '' and category.title == 'alert' %}
+<a href="https://getbootstrap.com/" class="nav-link text-center old-bv">There's a newer version of Bootstrap 4!</a>
+{% endif %}
+<header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+
+<div class="col-sm-4" style="padding-left:0px;">
+    <span class="navbar-nav-scroll">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-left" href="/"> BeastBot Discord Dashboard</a>
+          </li>
+        </ul>
+    </span>
+</div>
+  <div class="col-sm-8 text-right" style="padding-right:0px;">
+      <a id="buttonReset" class="btn btn-outline-secondary" href="/">Undo Changes</a>
+      &nbsp;
+      <a id="buttonPrimary" class="btn btn-outline-secondary" href="/">Save Configuration</a>
+  </div>
+
+</header>
+{% block page_content %}{% endblock %}

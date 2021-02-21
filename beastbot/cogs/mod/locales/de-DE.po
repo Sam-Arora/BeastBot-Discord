@@ -1,0 +1,763 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: red-discordbot\n"
+"POT-Creation-Date: 2021-01-28 12:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: redgettext 3.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: red-discordbot\n"
+"X-Crowdin-Project-ID: 289505\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File-ID: 34\n"
+"Language: de_DE\n"
+
+#: beastbot/cogs/mod/converters.py:20
+msgid "{} doesn't look like a valid user ID."
+msgstr "{} sieht nicht wie eine gültige Benutzerkennung aus."
+
+#: beastbot/cogs/mod/events.py:56 beastbot/cogs/mod/events.py:71
+msgid "Mention spam (Autoban)"
+msgstr "Spam von Erwähnungen (Autoban)"
+
+#: beastbot/cogs/mod/events.py:80
+msgid "Mention Spam (Autokick)"
+msgstr ""
+
+#: beastbot/cogs/mod/events.py:95
+msgid "Mention spam (Autokick)"
+msgstr ""
+
+#: beastbot/cogs/mod/events.py:104
+msgid "Please do not mass mention people!"
+msgstr ""
+
+#: beastbot/cogs/mod/events.py:108
+msgid "{member}, Please do not mass mention people!"
+msgstr ""
+
+#: beastbot/cogs/mod/events.py:127
+msgid "Mention spam (Autowarn)"
+msgstr ""
+
+#: beastbot/cogs/mod/kickban.py:93
+msgid "That user is not in a voice channel."
+msgstr "Dieser Benutzer ist nicht in einem Sprachkanal."
+
+#: beastbot/cogs/mod/kickban.py:100
+msgid "I require the {perms} permission(s) in that user's channel to do that."
+msgstr "Ich benötige die {perms} Berechtigung(en) im Kanal des Benutzers, um dies zu tun."
+
+#: beastbot/cogs/mod/kickban.py:110
+msgid "You must have the {perms} permission(s) in that user's channel to use this command."
+msgstr "Du musst die {perms} Berechtigung(en) im Kanal des Benutzers haben, um diesen Befehl nutzen zu können."
+
+#: beastbot/cogs/mod/kickban.py:132 beastbot/cogs/mod/kickban.py:442
+#: beastbot/cogs/mod/kickban.py:609
+msgid "Invalid days. Must be between 0 and 7."
+msgstr "Ungültige Anzahl an Tagen. Es muss eine Zahl zwischen 0 und 7 sein."
+
+#: beastbot/cogs/mod/kickban.py:138 beastbot/cogs/mod/kickban.py:585
+msgid "I cannot let you do that. Self-harm is bad {}"
+msgstr "Das kann ich dir leider nicht erlauben. Tu dir das selbst nicht an {}"
+
+#: beastbot/cogs/mod/kickban.py:143 beastbot/cogs/mod/kickban.py:297
+#: beastbot/cogs/mod/kickban.py:590 beastbot/cogs/mod/kickban.py:669
+#: beastbot/cogs/mod/kickban.py:749
+msgid "I cannot let you do that. You are not higher than the user in the role hierarchy."
+msgstr "Ich kann dich das nicht tun lassen. Du bist nicht höher in der Rollenhierarchie als der Benutzer."
+
+#: beastbot/cogs/mod/kickban.py:150 beastbot/cogs/mod/kickban.py:305
+#: beastbot/cogs/mod/kickban.py:598
+msgid "I cannot do that due to Discord hierarchy rules."
+msgstr ""
+
+#: beastbot/cogs/mod/kickban.py:156
+msgid "You have been banned from {guild}."
+msgstr "Du wurdest von {guild} gebannt."
+
+#: beastbot/cogs/mod/kickban.py:159 beastbot/cogs/mod/kickban.py:315
+msgid "**Reason**"
+msgstr "**Grund**"
+
+#: beastbot/cogs/mod/kickban.py:160 beastbot/cogs/mod/kickban.py:316
+msgid "No reason was given."
+msgstr "Es wurde kein Grund angegeben."
+
+#: beastbot/cogs/mod/kickban.py:178 beastbot/cogs/mod/kickban.py:458
+msgid "User with ID {user_id} is already banned."
+msgstr ""
+
+#: beastbot/cogs/mod/kickban.py:191
+msgid "User with ID {user_id} was upgraded from a temporary to a permanent ban."
+msgstr ""
+
+#: beastbot/cogs/mod/kickban.py:203 beastbot/cogs/mod/kickban.py:343
+msgid "Done. That felt good."
+msgstr "Erledigt. Das fühlte sich gut an."
+
+#: beastbot/cogs/mod/kickban.py:205 beastbot/cogs/mod/kickban.py:324
+msgid "I'm not allowed to do that."
+msgstr "Ich bin nicht autorisiert dies zu tun."
+
+#: beastbot/cogs/mod/kickban.py:207 beastbot/cogs/mod/kickban.py:529
+msgid "User with ID {user_id} not found"
+msgstr ""
+
+#: beastbot/cogs/mod/kickban.py:214
+msgid "An unexpected error occurred."
+msgstr "Ein unerwarteter Fehler ist aufgetreten."
+
+#: beastbot/cogs/mod/kickban.py:249
+msgid "Tempban finished"
+msgstr "Tempban abgesessen"
+
+#: beastbot/cogs/mod/kickban.py:273
+#, docstring
+msgid "\\n        Kick a user.\\n\\n        Examples:\\n           - `[p]kick 428675506947227648 wanted to be kicked.`\\n            This will kick Twentysix from the server.\\n           - `[p]kick @Twentysix wanted to be kicked.`\\n            This will kick Twentysix from the server.\\n\\n        If a reason is specified, it will be the reason that shows up\\n        in the audit log.\\n        "
+msgstr ""
+
+#: beastbot/cogs/mod/kickban.py:290 beastbot/cogs/mod/kickban.py:662
+msgid "I cannot let you do that. Self-harm is bad {emoji}"
+msgstr "Ich kann dich das nicht tun lassen. Tu dir das selbst nicht an {emoji}"
+
+#: beastbot/cogs/mod/kickban.py:312
+msgid "You have been kicked from {guild}."
+msgstr "Du wurdest von {guild} gekickt."
+
+#: beastbot/cogs/mod/kickban.py:357
+#, docstring
+msgid "Ban a user from this server and optionally delete days of messages.\\n\\n        `days` is the amount of days of messages to cleanup on ban.\\n\\n        Examples:\\n           - `[p]ban 428675506947227648 7 Continued to spam after told to stop.`\\n            This will ban Twentysix and it will delete 7 days worth of messages.\\n           - `[p]ban @Twentysix 7 Continued to spam after told to stop.`\\n            This will ban Twentysix and it will delete 7 days worth of messages.\\n\\n        A user ID should be provided if the user is not a member of this server.\\n        If days is not a number, it's treated as the first word of the reason.\\n        Minimum 0 days, maximum 7. If not specified, the defaultdays setting will be used instead.\\n        "
+msgstr ""
+
+#: beastbot/cogs/mod/kickban.py:395
+#, docstring
+msgid "Mass bans user(s) from the server.\\n\\n        `days` is the amount of days of messages to cleanup on massban.\\n\\n        Example:\\n           - `[p]massban 345628097929936898 57287406247743488 7 they broke all rules.`\\n            This will ban all the added userids and delete 7 days of worth messages.\\n\\n        User IDs need to be provided in order to ban\\n        using this command.\\n        "
+msgstr ""
+
+#: beastbot/cogs/mod/kickban.py:411
+msgid "Banned {num} users from the server."
+msgstr "{num} Benutzer vom Server gesperrt."
+
+#: beastbot/cogs/mod/kickban.py:415
+msgid "\\nErrors:\\n"
+msgstr "\\nFehler:\\n"
+
+#: beastbot/cogs/mod/kickban.py:418
+msgid "\\nFollowing user IDs have been upgraded from a temporary to a permanent ban:\\n"
+msgstr ""
+
+#: beastbot/cogs/mod/kickban.py:446
+msgid "I lack the permissions to do this."
+msgstr "Mir fehlen die Berechtigungen dies zu tun."
+
+#: beastbot/cogs/mod/kickban.py:497 beastbot/cogs/mod/kickban.py:501
+msgid "Failed to ban user {user_id}: {reason}"
+msgstr "Fehler beim Bannen von Benutzer {user_id}: {reason}"
+
+#: beastbot/cogs/mod/kickban.py:534
+msgid "Could not ban user with ID {user_id}: missing permissions."
+msgstr ""
+
+#: beastbot/cogs/mod/kickban.py:567
+#, docstring
+msgid "Temporarily ban a user from this server.\\n\\n        `duration` is the amount of time the user should be banned for.\\n        `days` is the amount of days of messages to cleanup on tempban.\\n\\n        Examples:\\n           - `[p]tempban @Twentysix Because I say so`\\n            This will ban Twentysix for the default amount of time set by an administrator.\\n           - `[p]tempban @Twentysix 15m You need a timeout`\\n            This will ban Twentysix for 15 minutes.\\n           - `[p]tempban 428675506947227648 1d2h15m 5 Evil person`\\n            This will ban the user for 1 day 2 hours 15 minutes and will delete the last 5 days of their messages.\\n        "
+msgstr ""
+
+#: beastbot/cogs/mod/kickban.py:621
+msgid "You have been temporarily banned from {server_name} until {date}."
+msgstr ""
+
+#: beastbot/cogs/mod/kickban.py:625
+msgid " Here is an invite for when your ban expires: {invite_link}"
+msgstr ""
+
+#: beastbot/cogs/mod/kickban.py:635
+msgid "I can't do that for some reason."
+msgstr "Ich kann das aus irgendeinem Grund nicht tun."
+
+#: beastbot/cogs/mod/kickban.py:637
+msgid "Something went wrong while banning."
+msgstr "Beim bannen hat etwas nicht funktioniert."
+
+#: beastbot/cogs/mod/kickban.py:649
+msgid "Done. Enough chaos for now."
+msgstr "Erledigt. Das war erstmal genug Chaos."
+
+#: beastbot/cogs/mod/kickban.py:656
+#, docstring
+msgid "Kick a user and delete 1 day's worth of their messages."
+msgstr "Benutzer kicken und dessen Nachrichten des letzten Tages löschen."
+
+#: beastbot/cogs/mod/kickban.py:685
+msgid "You have been banned and then unbanned as a quick way to delete your messages.\\nYou can now join the server again. {invite_link}"
+msgstr "Du wurdest gebannt und wieder entbannt, um Nachrichten von dir zu löschen, da du gegen die Regeln verstoßen hast.\\nDu kannst dem Server wieder beitreten. {invite_link}"
+
+#: beastbot/cogs/mod/kickban.py:696
+msgid "My role is not high enough to softban that user."
+msgstr "Meine Rolle ist nicht hoch genug, um diesen Benutzer zu softbannen."
+
+#: beastbot/cogs/mod/kickban.py:732
+msgid "Done. Enough chaos."
+msgstr "Erledigt. Das war genug Stress."
+
+#: beastbot/cogs/mod/kickban.py:740
+#, docstring
+msgid "Kick a member from a voice channel."
+msgstr "Kicke ein Mitglied aus einem Sprachkanal."
+
+#: beastbot/cogs/mod/kickban.py:762
+msgid "I am unable to kick this member from the voice channel."
+msgstr "Ich kann dieses Mitglied nicht aus dem Sprachkanal herausholen."
+
+#: beastbot/cogs/mod/kickban.py:765
+msgid "Something went wrong while attempting to kick that member."
+msgstr "Beim kicken dieses Members ist etwas schiefgelaufen."
+
+#: beastbot/cogs/mod/kickban.py:784
+#, docstring
+msgid "Unban a user from speaking and listening in the server's voice channels."
+msgstr "Entbanne einen Benutzer, sodass dieser in den Sprachkanälen des Servers Sprechen und Hören kann."
+
+#: beastbot/cogs/mod/kickban.py:803
+msgid "That user isn't muted or deafened by the server."
+msgstr ""
+
+#: beastbot/cogs/mod/kickban.py:819
+msgid "User is now allowed to speak and listen in voice channels."
+msgstr ""
+
+#: beastbot/cogs/mod/kickban.py:825
+#, docstring
+msgid "Ban a user from speaking and listening in the server's voice channels."
+msgstr "Banne einen Benutzer, sodass dieser nicht mehr in den Sprachkanälen des Servers Sprechen und Hören kann."
+
+#: beastbot/cogs/mod/kickban.py:846
+msgid "That user is already muted and deafened server-wide."
+msgstr ""
+
+#: beastbot/cogs/mod/kickban.py:860
+msgid "User has been banned from speaking or listening in voice channels."
+msgstr ""
+
+#: beastbot/cogs/mod/kickban.py:867
+#, docstring
+msgid "Unban a user from this server.\\n\\n        Requires specifying the target user's ID. To find this, you may either:\\n         1. Copy it from the mod log case (if one was created), or\\n         2. enable developer mode, go to Bans in this server's settings, right-\\n        click the user and select 'Copy ID'."
+msgstr "Entbanne einen Benutzer von diesem Server.\\n\\n        Erfordert die ID des Nutzers. Um dies herauszufinden, kannst du entweder:\\n         1. die ID aus dem Mod-Log Fall (falls einer erstellt wurde) entnehmen, oder\\n         2. den Entwicklermodus aktivieren, zu der Kategorie Bans in den Servereinstellungen navigieren und dort mit einem Rechtsklick auf den Benutzer die ID kopieren."
+
+#: beastbot/cogs/mod/kickban.py:880
+msgid "It seems that user isn't banned!"
+msgstr "Es scheint so, dass dieser Benutzer nicht gebannt ist!"
+
+#: beastbot/cogs/mod/kickban.py:885
+msgid "Something went wrong while attempting to unban that user."
+msgstr "Beim entbannen dieses Benutzers ist etwas schiefgelaufen."
+
+#: beastbot/cogs/mod/kickban.py:899
+msgid "Unbanned that user from this server."
+msgstr "Benutzer entbannt."
+
+#: beastbot/cogs/mod/kickban.py:905
+msgid "I don't share another server with this user. I can't reinvite them."
+msgstr "Ich teile keinen anderen Server mit diesem Benutzer. Ich kann ihm keine Einladung senden."
+
+#: beastbot/cogs/mod/kickban.py:913
+msgid "You've been unbanned from {server}.\\nHere is an invite for that server: {invite_link}"
+msgstr "Du wurdest von {server} entbannt.\\nHier ist eine Einladung für diesen Server: {invite_link}"
+
+#: beastbot/cogs/mod/kickban.py:920
+msgid "I failed to send an invite to that user. Perhaps you may be able to send it for me?\\nHere's the invite link: {invite_link}"
+msgstr "Ich konnte keine Einladung an den Benutzer senden. Kannst du das für mich machen?\\nHier ist der Einladungslink: {invite_link}"
+
+#: beastbot/cogs/mod/kickban.py:928
+msgid "Something went wrong when attempting to send that useran invite. Here's the link so you can try: {invite_link}"
+msgstr "Beim Versuch, dem Benutzer eine Einladung zu senden, ist etwas schief gelaufen. Hier ist der Link, damit du es auch versuchen kannst: {invite_link}"
+
+#: beastbot/cogs/mod/mod.py:45
+#, docstring
+msgid "Moderation tools."
+msgstr "Moderationstools."
+
+#: beastbot/cogs/mod/mod.py:138 beastbot/cogs/mod/mod.py:148
+msgid "Ignored guilds and channels have been moved. Please use `[p]moveignoredchannels` to migrate the old settings."
+msgstr "Die Funktion zum ignorieren von Servern und Kanälen wurde verschoben. Benutze `[p]moveignoredchannels` um deine Einstellungen wiederherzustellen."
+
+#: beastbot/cogs/mod/mod.py:160
+msgid "Delete delay settings have been moved. Please use `[p]movedeletedelay` to migrate the old settings."
+msgstr "Die Einstellungen für die automatische Befehlsnachrichtenlöschung wurden verschoben. Verwende `[p]movedeletedelay` um deine Einstellungen wiederherzustellen."
+
+#: beastbot/cogs/mod/mod.py:181
+#, docstring
+msgid "Move ignored channels and servers to core"
+msgstr "Verschiebe ignorierte Kanäle in den Core"
+
+#: beastbot/cogs/mod/mod.py:190
+msgid "Ignored channels and guilds restored."
+msgstr "Ignorierte Kanäle und Server wiederhergestellt."
+
+#: beastbot/cogs/mod/mod.py:195
+#, docstring
+msgid "\\n        Move deletedelay settings to core\\n        "
+msgstr ""
+
+#: beastbot/cogs/mod/mod.py:204
+msgid "Delete delay settings restored."
+msgstr "Einstellungen für die automatische Befehlslöschung wiederhergestellt."
+
+#: beastbot/cogs/mod/names.py:36
+#, docstring
+msgid "Change a user's nickname.\\n\\n        Leaving the nickname empty will remove it.\\n        "
+msgstr "Ändere den Nicknamen des Benutzers.\\n\\n        Wenn der Nickname leer ist wird dieser entfernt.\\n        "
+
+#: beastbot/cogs/mod/names.py:45
+msgid "Nicknames must be between 2 and 32 characters long."
+msgstr "Nicknamen müssen zwischen 2 und 32 Zeichen lang sein."
+
+#: beastbot/cogs/mod/names.py:53
+msgid "I do not have permission to rename that member. They may be higher than or equal to me in the role hierarchy."
+msgstr "Ich habe keine Berechtigung den Namen von diesem Benutzer zu ändern. Die Rolle ist höher oder gleichgestellt in der Rollenhierarchie."
+
+#: beastbot/cogs/mod/names.py:63
+msgid "I do not have permission to rename that member."
+msgstr "Ich habe keine Berechtigung den Namen von diesem Benutzer zu ändern."
+
+#: beastbot/cogs/mod/names.py:66
+msgid "That nickname is invalid."
+msgstr "Der Nickname ist ungültig."
+
+#: beastbot/cogs/mod/names.py:68
+msgid "An unexpected error has occured."
+msgstr "Ein unerwarteter Fehler ist aufgetreten."
+
+#: beastbot/cogs/mod/names.py:70
+msgid "Done."
+msgstr "Erledigt."
+
+#: beastbot/cogs/mod/names.py:81
+msgid "Custom: {emoji} {name}"
+msgstr "Benutzerdefiniert: {emoji} {name}"
+
+#: beastbot/cogs/mod/names.py:83
+msgid "Custom: {emoji}"
+msgstr "Benutzerdefiniert: {emoji}"
+
+#: beastbot/cogs/mod/names.py:85
+msgid "Custom: {name}"
+msgstr "Benutzerdefiniert: {name}"
+
+#: beastbot/cogs/mod/names.py:93
+msgid "Playing: {name}"
+msgstr "Spielt: {name}"
+
+#: beastbot/cogs/mod/names.py:102
+msgid "Streaming: [{name}{sep}{game}]({url})"
+msgstr "Streamt: [{name}{sep}{game}]({url})"
+
+#: beastbot/cogs/mod/names.py:109
+msgid "Streaming: {name}"
+msgstr "Streamt: {name}"
+
+#: beastbot/cogs/mod/names.py:118
+msgid "Listening: [{title}{sep}{artist}]({url})"
+msgstr "Hört: [{title}{sep}{artist}]({url})"
+
+#: beastbot/cogs/mod/names.py:125
+msgid "Listening: {title}"
+msgstr "Hört: {title}"
+
+#: beastbot/cogs/mod/names.py:133
+msgid "Watching: {name}"
+msgstr "Schaut: {name}"
+
+#: beastbot/cogs/mod/names.py:141
+msgid "Competing in: {competing}"
+msgstr ""
+
+#: beastbot/cogs/mod/names.py:164
+#, docstring
+msgid "Show information about a user.\\n\\n        This includes fields for status, discord join date, server\\n        join date, voice state and previous names/nicknames.\\n\\n        If the user has no roles, previous names or previous nicknames,\\n        these fields will be omitted.\\n        "
+msgstr "Zeigt Informationen über den Benutzer.\\n\\n        Dazu gehören Angaben des Status, Beitrittsdatum bei Discord,\\n        des Servers, Sprachstatus und frühere Namen/Nicknamen.\\n\\n        Wenn der Benutzer keine Rollen, frühere Namen oder Spitznamen hat,\\n        werden diese Angaben ausgelassen.\\n        "
+
+#: beastbot/cogs/mod/names.py:192
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: beastbot/cogs/mod/names.py:200
+msgid "{}\\n({} days ago)"
+msgstr "{}\\n({} Tage her)"
+
+#: beastbot/cogs/mod/names.py:201
+msgid "{}\\n({} days ago)"
+msgstr "{}\\n({} Tage her)"
+
+#: beastbot/cogs/mod/names.py:213
+msgid "Chilling in {} status"
+msgstr "Entspannt in {} status"
+
+#: beastbot/cogs/mod/names.py:227
+msgid "and {numeric_number} more roles not displayed due to embed limits."
+msgstr "und {numeric_number} weitere Rollen, die aufgrund von Embedlimitierungen nicht angezeigt werden."
+
+#: beastbot/cogs/mod/names.py:254
+msgid "Joined Discord on"
+msgstr "Ist Discord beigetreten am"
+
+#: beastbot/cogs/mod/names.py:255
+msgid "Joined this server on"
+msgstr "Dem Server beigetreten am"
+
+#: beastbot/cogs/mod/names.py:258
+msgid "Roles"
+msgstr "Rollen"
+
+#: beastbot/cogs/mod/names.py:258
+msgid "Role"
+msgstr ""
+
+#: beastbot/cogs/mod/names.py:264
+msgid "Previous Names"
+msgstr "Vorherige Namen"
+
+#: beastbot/cogs/mod/names.py:264
+msgid "Previous Name"
+msgstr ""
+
+#: beastbot/cogs/mod/names.py:272
+msgid "Previous Nicknames"
+msgstr "Vorherige Nicknamen"
+
+#: beastbot/cogs/mod/names.py:272
+msgid "Previous Nickname"
+msgstr ""
+
+#: beastbot/cogs/mod/names.py:278
+msgid "Current voice channel"
+msgstr "Aktueller Sprachkanal"
+
+#: beastbot/cogs/mod/names.py:282
+msgid "Member #{} | User ID: {}"
+msgstr "Benutzer #{} | User ID: {}"
+
+#: beastbot/cogs/mod/names.py:296
+#, docstring
+msgid "Show previous names and nicknames of a user."
+msgstr "Zeige vorherige Namen und Nicknamen von einem Benutzer."
+
+#: beastbot/cogs/mod/names.py:300
+msgid "**Past 20 names**:"
+msgstr "**Vorherige 20 Namen:**"
+
+#: beastbot/cogs/mod/names.py:306
+msgid "**Past 20 nicknames**:"
+msgstr "**Die letzten 20 Nicknamen:**"
+
+#: beastbot/cogs/mod/names.py:313
+msgid "That user doesn't have any recorded name or nickname change."
+msgstr "Über diesen Benutzer sind keine Namens- oder Nicknamenänderungen bekannt."
+
+#: beastbot/cogs/mod/settings.py:22
+#, docstring
+msgid "Manage server administration settings."
+msgstr "Einstellungen der Server-Administratio verwalten."
+
+#: beastbot/cogs/mod/settings.py:26
+#, docstring
+msgid "Show the current server administration settings."
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:41
+msgid "Delete repeats: {num_repeats}\\n"
+msgstr "Wiederholungen löschen: {num_repeats}\\n"
+
+#: beastbot/cogs/mod/settings.py:42
+msgid "after {num} repeats"
+msgstr "nach {num} Wiederholungen"
+
+#: beastbot/cogs/mod/settings.py:44 beastbot/cogs/mod/settings.py:49
+#: beastbot/cogs/mod/settings.py:54 beastbot/cogs/mod/settings.py:59
+#: beastbot/cogs/mod/settings.py:67 beastbot/cogs/mod/settings.py:75
+#: beastbot/cogs/mod/settings.py:78
+msgid "No"
+msgstr "Nein"
+
+#: beastbot/cogs/mod/settings.py:46
+msgid "Warn mention spam: {num_mentions}\\n"
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:47 beastbot/cogs/mod/settings.py:52
+#: beastbot/cogs/mod/settings.py:57
+msgid "{num} mentions"
+msgstr "{num} Erwähnungen"
+
+#: beastbot/cogs/mod/settings.py:51
+msgid "Kick mention spam: {num_mentions}\\n"
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:56
+msgid "Ban mention spam: {num_mentions}\\n"
+msgstr "Spam von Erwähnungen bannen: {num_mentions}\\n"
+
+#: beastbot/cogs/mod/settings.py:62
+msgid "Mention Spam Strict: All mentions will count including duplicates\\n"
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:64
+msgid "Mention Spam Strict: Only unique mentions will count\\n"
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:66
+msgid "Respects hierarchy: {yes_or_no}\\n"
+msgstr "Rangordnung berücksichtigen: {yes_or_no}\\n"
+
+#: beastbot/cogs/mod/settings.py:67 beastbot/cogs/mod/settings.py:75
+#: beastbot/cogs/mod/settings.py:78
+msgid "Yes"
+msgstr "Ja"
+
+#: beastbot/cogs/mod/settings.py:69
+msgid "Delete delay: {num_seconds}\\n"
+msgstr "Verzögerung zwischen dem Löschen: {num_seconds}\\n"
+
+#: beastbot/cogs/mod/settings.py:70
+msgid "{num} seconds"
+msgstr "{num} Sekunden"
+
+#: beastbot/cogs/mod/settings.py:72
+msgid "None"
+msgstr "Keine"
+
+#: beastbot/cogs/mod/settings.py:74
+msgid "Reinvite on unban: {yes_or_no}\\n"
+msgstr "Lädt Mitglieder nach Entbannung neu ein: {yes_or_no}\\n"
+
+#: beastbot/cogs/mod/settings.py:77
+msgid "Send message to users on kick/ban: {yes_or_no}\\n"
+msgstr "Nutzer bei Kick/Bann benachrichtigen: {yes_or_no}\\n"
+
+#: beastbot/cogs/mod/settings.py:81
+msgid "Default message history delete on ban: Previous {num_days} days\\n"
+msgstr "Standardalter zu löschender Nachrichten beim bannen: Vergangene {num_days} Tage\\n"
+
+#: beastbot/cogs/mod/settings.py:85
+msgid "Default message history delete on ban: Don't delete any\\n"
+msgstr "Standardalter zu löschender Nachrichten beim bannen: Nachrichten werden nicht gelöscht\\n"
+
+#: beastbot/cogs/mod/settings.py:86
+msgid "Default tempban duration: {duration}"
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:94
+#, docstring
+msgid "Toggle role hierarchy check for mods and admins.\\n\\n        **WARNING**: Disabling this setting will allow mods to take\\n        actions on users above them in the role hierarchy!\\n\\n        This is enabled by default.\\n        "
+msgstr "Schaltet die Prüfung für Rollen-Hierarchie von Mods und Admins um.\\n\\n        **WARNUNG**: Deaktivieren dieser Einstellung erlaubt Mods\\n        Aktionen bei Benutzern, die ranghöhere Rollen besitzen!\\n\\n        Dies ist standardmäßig aktiviert.\\n        "
+
+#: beastbot/cogs/mod/settings.py:106
+msgid "Role hierarchy will be checked when moderation commands are issued."
+msgstr "Die Rollenhierarchie wird überprüft, wenn Moderationsbefehle ausgegeben werden."
+
+#: beastbot/cogs/mod/settings.py:111
+msgid "Role hierarchy will be ignored when moderation commands are issued."
+msgstr "Die Rollenhierarchie wird ignoriert, wenn Moderationsbefehle ausgegeben werden."
+
+#: beastbot/cogs/mod/settings.py:117
+#, docstring
+msgid "\\n        Manage the automoderation settings for mentionspam.\\n        "
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:124
+#, docstring
+msgid "\\n        Setting to account for duplicate mentions.\\n\\n        If enabled all mentions will count including duplicated mentions.\\n        If disabled only unique mentions will count.\\n\\n        Use this command without any parameter to see current setting.\\n        "
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:136
+msgid "Mention spam currently accounts for multiple mentions of the same user."
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:138
+msgid "Mention spam currently only accounts for mentions of different users."
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:143
+msgid "Mention spam will now account for multiple mentions of the same user."
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:145
+msgid "Mention spam will only account for mentions of different users."
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:152
+#, docstring
+msgid "\\n        Sets the autowarn conditions for mention spam.\\n\\n        Users will be warned if they send any messages which contain more than\\n        `<max_mentions>` mentions.\\n\\n        `<max_mentions>` Must be 0 or greater. Set to 0 to disable this feature.\\n        "
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:163
+msgid "Autowarn for mention spam is already disabled."
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:165
+msgid "Autowarn for mention spam disabled."
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:168
+msgid "`<max_mentions>` must be 1 or higher to autowarn."
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:174
+msgid "\\nAutowarn is equal to or higher than autokick."
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:178
+msgid "\\nAutowarn is equal to or higher than autoban."
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:182
+msgid "Autowarn for mention spam enabled. Anyone mentioning {max_mentions} or more people in a single message will be autowarned.\\n{mismatch_message}"
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:192
+#, docstring
+msgid "\\n        Sets the autokick conditions for mention spam.\\n\\n        Users will be kicked if they send any messages which contain more than\\n        `<max_mentions>` mentions.\\n\\n        `<max_mentions>` Must be 0 or greater. Set to 0 to disable this feature.\\n        "
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:203
+msgid "Autokick for mention spam is already disabled."
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:205
+msgid "Autokick for mention spam disabled."
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:208
+msgid "`<max_mentions>` must be 1 or higher to autokick."
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:214
+msgid "\\nAutokick is equal to or lower than autowarn."
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:218
+msgid "\\nAutokick is equal to or higher than autoban."
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:222
+msgid "Autokick for mention spam enabled. Anyone mentioning {max_mentions} or more people in a single message will be autokicked.\\n{mismatch_message}"
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:232
+#, docstring
+msgid "Set the autoban conditions for mention spam.\\n\\n        Users will be banned if they send any message which contains more than\\n        `<max_mentions>` mentions.\\n\\n        `<max_mentions>` Must be 0 or greater. Set to 0 to disable this feature.\\n        "
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:242
+msgid "Autoban for mention spam is already disabled."
+msgstr "Autobann für mentionspam ist bereits deaktiviert."
+
+#: beastbot/cogs/mod/settings.py:244
+msgid "Autoban for mention spam disabled."
+msgstr "Autoban für Spam von Erwähnungen deaktiviert."
+
+#: beastbot/cogs/mod/settings.py:247
+msgid "`<max_mentions>` must be 1 or higher to autoban."
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:253
+msgid "\\nAutoban is equal to or lower than autowarn."
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:257
+msgid "\\nAutoban is equal to or lower than autokick."
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:261
+msgid "Autoban for mention spam enabled. Anyone mentioning {max_mentions} or more people in a single message will be autobanned.\\n{mismatch_message}"
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:271
+#, docstring
+msgid "Enable auto-deletion of repeated messages.\\n\\n        Must be between 2 and 20.\\n\\n        Set to -1 to disable this feature.\\n        "
+msgstr "Aktiviere automatische Löschung wiederholter Nachrichten.\\n\\n        Muss zwischen 2 und 20 liegen.\\n\\n        Setze auf -1, um diese Funktion zu deaktivieren.\\n        "
+
+#: beastbot/cogs/mod/settings.py:282 beastbot/cogs/mod/settings.py:308
+msgid "Repeated messages will be ignored."
+msgstr "Wiederholte Nachrichten werden ignoriert."
+
+#: beastbot/cogs/mod/settings.py:288
+msgid "Messages repeated up to {num} times will be deleted."
+msgstr "Nachrichten, die bis zu {num} Mal wiederholt werden, werden gelöscht."
+
+#: beastbot/cogs/mod/settings.py:292
+msgid "Number of repeats must be between 2 and 20 or equal to -1 if you want to disable this feature!"
+msgstr "Anzahl der Wiederholungen muss zwischen 2 und 20 oder gleich -1 sein, wenn Sie diese Funktion deaktivieren möchten!"
+
+#: beastbot/cogs/mod/settings.py:301
+msgid "Bot will delete repeated messages after {num} repeats. Set this value to -1 to ignore repeated messages"
+msgstr "Bot wird wiederholte Nachrichten nach Wiederholungen von {num} löschen. Setze diesen Wert auf -1, um wiederholte Nachrichten zu ignorieren"
+
+#: beastbot/cogs/mod/settings.py:313
+#, docstring
+msgid "Toggle whether an invite will be sent to a user when unbanned.\\n\\n        If this is True, the bot will attempt to create and send a single-use invite\\n        to the newly-unbanned user.\\n        "
+msgstr "Legt fest ob eine Einladung an Benutzer verschickt wird, die entbannt werden.\\n\\n        Bei Aktivierung versucht der Bot eine einmalige Einladung an den\\n        entbannten Benutzer zu senden.\\n        "
+
+#: beastbot/cogs/mod/settings.py:323
+msgid "Users unbanned with `{command}` will be reinvited."
+msgstr "Benutzer, die mit `{command}` entbannt werden, werden wieder eingeladen."
+
+#: beastbot/cogs/mod/settings.py:330
+msgid "Users unbanned with `{command}` will not be reinvited."
+msgstr "Benutzer, die mit `{command}` entbannt werden, werden nicht wieder eingeladen."
+
+#: beastbot/cogs/mod/settings.py:338
+#, docstring
+msgid "Toggle whether a message should be sent to a user when they are kicked/banned.\\n\\n        If this option is enabled, the bot will attempt to DM the user with the guild name\\n        and reason as to why they were kicked/banned.\\n        "
+msgstr "Lege fest, ob eine Nachricht an einen Benutzer gesendet werden soll, wenn er gekickt/gebannt wird.\\n\\n        Wenn diese Option aktiviert ist, werde ich versuchen, den Benutzer per DM zu informieren\\n        und ihm den Grund dafür nennen, warum er gekickt/gebannt wurde.\\n        "
+
+#: beastbot/cogs/mod/settings.py:347
+msgid "DM when kicked/banned is currently set to: {setting}"
+msgstr "DM bei kick/bann ist derzeit auf {setting} gesetzt"
+
+#: beastbot/cogs/mod/settings.py:352
+msgid "Bot will now attempt to send a DM to user before kick and ban."
+msgstr "Ich werde nun versuchen, eine DM an Benutzer zu schicken, bevor sie gekickt oder gebannt werden."
+
+#: beastbot/cogs/mod/settings.py:355
+msgid "Bot will no longer attempt to send a DM to user before kick and ban."
+msgstr "Ich werde nicht mehr versuchen, eine DM an Benutzer zu schicken, bevor sie gekickt oder gebannt werden."
+
+#: beastbot/cogs/mod/settings.py:361
+#, docstring
+msgid "Set the default number of days worth of messages to be deleted when a user is banned.\\n\\n        The number of days must be between 0 and 7.\\n        "
+msgstr "Legen Sie die Standardanzahl an Tagen fest, von denen Nachrichten gelöscht werden sollen, wenn ein Benutzer gebannt wird.\\n\\n        Die Anzahl der Tage muss zwischen 0 und 7 liegen.\\n        "
+
+#: beastbot/cogs/mod/settings.py:367
+msgid "Invalid number of days. Must be between 0 and 7."
+msgstr "Ungültige Anzahl von Tagen. Muss zwischen 0 und 7 liegen."
+
+#: beastbot/cogs/mod/settings.py:370
+msgid "{days} days worth of messages will be deleted when a user is banned."
+msgstr "Nachrichten der letzten {days} Tage werden gelöscht, wenn ein Benutzer gebannt wird."
+
+#: beastbot/cogs/mod/settings.py:385
+#, docstring
+msgid "Set the default time to be used when a user is tempbanned.\\n\\n        Accepts: seconds, minutes, hours, days, weeks\\n        `duration` must be greater than zero.\\n\\n        Examples:\\n            `[p]modset defaultduration 7d12h10m`\\n            `[p]modset defaultduration 7 days 12 hours 10 minutes`\\n        "
+msgstr ""
+
+#: beastbot/cogs/mod/settings.py:397
+msgid "The default duration for tempbanning a user is now {duration}."
+msgstr ""
+
+#: beastbot/cogs/mod/slowmode.py:27
+#, docstring
+msgid "Changes channel's slowmode setting.\\n\\n        Interval can be anything from 0 seconds to 6 hours.\\n        Use without parameters to disable.\\n        "
+msgstr "Ändert die slowmodus Einstellung des Kanals.\\n\\n        Intervall kann alles von 0 Sekunden bis 6 Stunden sein.\\n        Ohne Parameter verwenden.\\n        deaktivieren        "
+
+#: beastbot/cogs/mod/slowmode.py:36
+msgid "Slowmode interval is now {interval}."
+msgstr "Langsamer Modus Intervall ist jetzt {interval}."
+
+#: beastbot/cogs/mod/slowmode.py:41
+msgid "Slowmode has been disabled."
+msgstr "Der Slowmodus wurde deaktiviert."
+

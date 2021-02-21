@@ -1,0 +1,122 @@
+{% load static %}
+<html lang="en">
+    <style>
+         .section p{
+                color:white;
+            }
+            .section h2{
+                color:white;
+            }
+            .section ul{
+                color:white;
+            }
+            .admonition p{
+                color:black;
+            }
+            .highlight pre{
+                font-size: 15px;
+                color: #e83e8c;
+                word-break: break-word;
+            }
+    </style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="{% static '/css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static '/css/main.css' %}">
+        <link rel="stylesheet" href="{% static '/css/now-ui-kit.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+        <title>{{ botName|default:"BeastBot" }}</title>
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg bg-transparent">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="{% static 'assets/menuIcon.svg' %}" width="20px" height="20px" style="max-width: none !important;">
+        </button>
+        <img src="{% static 'assets/BotLogo.png' %}" width="50" height="50">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px !important">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/features">Dashboard</a>
+                </li>
+            </ul>
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Documentation
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/commands">Commands</a>
+                    <a class="dropdown-item" href="/tutorials">Tutorials</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/server-settings">Server settings</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="features">
+        <div class="section text-left" style="padding: 10px;background-color: #212529c7;">
+            <h2 class="display-5 title" style="padding:0px;">About {{ botName|default:"BeastBot" }}</h2>
+            <p>{{ botName|default:"BeastBot" }} is a fully modular bot – meaning all features and commands can be enabled/disabled to your
+            liking, making it completely customizable. You can turn {{ botName|default:"BeastBot" }} into an admin bot, music bot, trivia bot,
+            new best friend or all of these together!</p>
+
+            <p><strong>The default set of modules includes and is not limited to:</strong></p>
+            <ul>
+                <li>Moderation features (kick/ban/softban/hackban, mod-log, filter, chat cleanup)</li>
+                <li>Trivia (lists are included and can be easily added)</li>
+                <li>Music features (YouTube, SoundCloud, local files, playlists, queues)</li>
+                <li>Stream alerts (Twitch, Youtube, Hitbox, Picarto)</li>
+                <li>Bank (slot machine, user credits)</li>
+                <li>Custom commands</li>
+                <li>Imgur/gif search</li>
+                <li>Admin automation (self-role assignment, cross-server announcements, mod-mail reports)</li>
+                <li>Customisable command permissions</li>
+            </ul>
+
+            <p>{{ botName|default:"BeastBot" }} is fully modular, allowing you to load and unload plugins of your choice, and install 3rd party
+            plugins directly from Discord! A few examples are:</p>
+
+            <ul>
+                <li>Cleverbot integration (talk to {{ botName|default:"BeastBot" }} and she talks back)</li>
+                <li>Ban sync</li>
+                <li>Welcome messages</li>
+                <li>Casino</li>
+                <li>Reaction roles</li>
+                <li>Slow Mode</li>
+                <li>AniList</li>
+                <li>And much, much more!</li>
+            </ul>
+
+            <p><strong>Additionally, other <a href="#plugins">plugins</a> (cogs) can be easily found and added from our growing community of cog repositories.</strong></p>
+        </div>
+    </div>
+    <div class="statistics">
+
+    </div>
+    <div class="page_end">
+        <div class="footer">
+            <div class="bot-footer">
+                <img src="{% static 'assets/BotLogo.png' %}" width="150"><br /><br />
+                Copyright © {{ botName|default:"BeastBot" }} - 2021
+            </div><br/>
+            <div class="nouridio">design by <a href="https://twitter.com/Nouridio"> nouridio</a></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="{% static 'js/now-ui-kit.min.js' %}"></script>
+    </body>
+</html>
